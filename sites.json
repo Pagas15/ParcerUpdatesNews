@@ -82,13 +82,13 @@
         "name": "ai-meta",
         "url": "https://ai.meta.com/",
         "category": "AI",
-        "x-path": "/html/body/div/div/div[2]/div[1]/div[7]/div[2]"
+        "x-path": "/html/body/div/div/div[2]/div[1]/div[7]/div[2]/div[3]/div/div[1]/div/span/div"
       },
       "ai-meta-blog": {
         "name": "ai-meta-blog",
         "url": "https://ai.meta.com/blog/",
         "category": "AI",
-        "x-path": "/html/body/div/div/div[2]/div/div[5]/div[2]"
+        "x-path": "/html/body/div/div/div[2]/div/div[5]/div[2]/div[1]"
       },
       "machinelearning": {
         "name": "machinelearning",
