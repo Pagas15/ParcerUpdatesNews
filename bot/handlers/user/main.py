@@ -1,5 +1,3 @@
-from typing import Tuple
-
 from aiogram import Router
 
 from .start import start_router

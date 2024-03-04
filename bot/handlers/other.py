@@ -1,3 +1,3 @@
-from aiogram import types, Router
+from aiogram import Router
 
 other_router = Router()
