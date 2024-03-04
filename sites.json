@@ -1,0 +1,154 @@
+{
+  "lists_sites": {
+      "nvidia": {
+        "name": "nvidia",
+        "url": "https://www.nvidia.com/en-us/",
+        "category": "Video cards, Computers",
+        "x-path": "//*[@id=\"ai-data-science-blade\"]/div/div"
+      },
+      "x-ai": {
+        "name": "x-ai",
+        "url": "https://x.ai/",
+        "category": "Company working on building artificial intelligence to accelerate human scientific discovery.",
+        "x-path": "/html/body/header/div[2]/div"
+      },
+      "neuralink-blog": {
+        "name": "neuralink-blog",
+        "url": "https://neuralink.com/blog/",
+        "category": "Technologies",
+        "x-path": "/html/body/div/main/div/div/div[1]"
+      },
+      "news-samsung": {
+        "name": "news-samsung",
+        "url": "https://news.samsung.com/global/feed",
+        "category": "Phones",
+        "x-path": "/html/body/div/div[2]/div/div[1]"
+      },
+      "vitalik.eth.limo": {
+        "name": "vitalik-eth-limo",
+        "url": "https://vitalik.eth.limo",
+        "category": "ETH",
+        "x-path": "/html/body/div/ul/li[1]"
+      },
+      "boringcompany-projects": {
+        "name": "boringcompany-projects",
+        "url": "https://www.boringcompany.com/projects",
+        "category": "Tunnel construction services",
+        "x-path": "/html/body/div[4]/div[2]/div/main/section[1]/div[2]"
+      },
+      "nvidia-blogs": {
+        "name": "nvidia-blogs",
+        "url": "https://blogs.nvidia.com/",
+        "category": "Video cards, Computers",
+        "x-path": "/html/body/div[1]/div[2]/div/div/main/div[1]/div[1]"
+      },
+      "amd-newsroom": {
+        "name": "amd-newsroom",
+        "url": "https://www.amd.com/en/newsroom.html",
+        "category": "Video cards, Computers",
+        "x-path": "/html/body/div[1]/div/div/div/div/div[3]/div/div/div/div[2]/div/div/div"
+      },
+      "microsoft-research": {
+        "name": "microsoft-research",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "category": "Advancing science and technology to benefit humanity",
+        "x-path": "/html/body/main/article/div/div/div/div[1]/div/div/div[2]/div"
+      },
+      "amazon-science-publication": {
+        "name": "amazon-science-publication",
+        "url": "https://www.amazon.science/publications/",
+        "category": "Science",
+        "x-path": "/html/body/div[1]/main/ps-search-results-module/form/div/ps-search-filters/div/main/ul/li[1]"
+      },
+      "microsoft-research-filter": {
+        "name": "microsoft-research-filter",
+        "url": "https://www.microsoft.com/en-us/research/search/?facet%5Btax%5D%5Bmsr-content-type%5D[]=msr-project&pg=1&q=",
+        "category": "Microsoft projects",
+        "x-path": "/html/body/main/div/div/div[2]/div[2]/div[1]/div/div[1]"
+      },
+      "open-ai": {
+        "name": "open-ai",
+        "url": "https://openai.com",
+        "category": "AI",
+        "x-path": "/html/body/div/div[2]/div/div[1]/div/div[3]/div/div[2]/div/div/div[2]/div/ul"
+      },
+      "marktechpost": {
+        "name": "marktechpost",
+        "url": "https://www.marktechpost.com/",
+        "category": "News",
+        "x-path": "/html/body/div[7]/div[2]/div/div[1]/div/div/div[1]/div"
+      },
+      "ai-meta": {
+        "name": "ai-meta",
+        "url": "https://ai.meta.com/",
+        "category": "AI",
+        "x-path": "/html/body/div/div/div[2]/div[1]/div[7]/div[2]"
+      },
+      "ai-meta-blog": {
+        "name": "ai-meta-blog",
+        "url": "https://ai.meta.com/blog/",
+        "category": "AI",
+        "x-path": "/html/body/div/div/div[2]/div/div[5]/div[2]"
+      },
+      "machinelearning": {
+        "name": "machinelearning",
+        "url": "https://machinelearning.apple.com/research",
+        "category": "AI Apple",
+        "x-path": "//*[@id=\"top-post\"]"
+      },
+      "warpcast": {
+        "name": "warpcast",
+        "url": "https://warpcast.com/vitalik.eth",
+        "category": "ETH",
+        "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[1]/div/div/div[3]/div/div/div[2]"
+      },
+      "watcher-guru": {
+        "name": "watcher-guru",
+        "url": "https://watcher.guru/news/",
+        "category": "News",
+        "x-path": "/html/body/div[4]/div/main/div/div/div/div/div[3]/div"
+      },
+      "warpcast-casts-and-replies": {
+        "name": "warpcast-casts-and-replies",
+        "url": "https://warpcast.com/vitalik.eth/casts-and-replies",
+        "category": "ETH",
+        "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[1]/div/div/div[3]/div/div/div[3]"
+      },
+      "blog-google": {
+        "name": "blog-google",
+        "url": "https://blog.google/technology/ai",
+        "category": "Google blog",
+        "x-path": "/html/body/main/article/section[2]/uni-article-feed/div/div"
+      },
+      "spacex-updates": {
+        "name": "spacex-updates",
+        "url": "https://www.spacex.com/updates/",
+        "category": "Space",
+        "x-path": "/html/body/div[1]/div[2]/div[2]/div/div[1]"
+      },
+      "open-ai-research": {
+        "name": "open-ai-research",
+        "url": "https://openai.com/research",
+        "category": "AI",
+        "x-path": "/html/body/div/div[2]/div/div[1]/div/div[3]/form/div[3]"
+      },
+      "open-ai-blog": {
+        "name": "open-ai-blog",
+        "url": "https://openai.com/blog",
+        "category": "AI",
+        "x-path": "/html/body/div/div[2]/div/div[1]/div/div[4]/div/form/div[2]/div/div/ul/li[1]"
+      },
+      "nowadais": {
+        "name": "nowadais",
+        "url": "https://www.nowadais.com/",
+        "category": "AI",
+        "x-path": "/html/body/div[1]/div[4]/div/div[1]/div[3]/div[1]/div[1]/article[1]/div[1]"
+      },
+      "spacex": {
+        "name": "spacex",
+        "url": "https://www.spacex.com/",
+        "category": "Space",
+        "x-path": "/html/body/div[1]/div[2]/div[1]/div[1]/div"
+      }
+  }
+}
