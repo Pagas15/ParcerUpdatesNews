@@ -8,7 +8,6 @@ from seleniumwire.webdriver import Chrome
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from bot.config import get_newsletter_chats_ids
 from bot.misc.snapshots import SiteSnapshot
 
 
@@ -22,7 +21,7 @@ class Observer(ABC):
 class SiteObserver(Observer):
     chrome_driver: Chrome = None
     site_snapshot: SiteSnapshot = None
-    loading_timeout = 60
+    loading_timeout = 180
 
     def __init__(self, chrom_webdriver: Chrome, site_snapshot: SiteSnapshot):
         self.chrome_driver = chrom_webdriver
