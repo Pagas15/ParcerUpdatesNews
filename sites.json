@@ -46,7 +46,7 @@
         "name": "amd-newsroom",
         "url": "https://www.amd.com/en/newsroom.html",
         "category": "Video cards, Computers",
-        "x-path": "/html/body/div[1]/div/div/div/div/div[3]/div/div/div/div[2]/div/div/div"
+        "x-path": "/html/body/div[1]/div/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div/div[3]/div/div/div[1]"
       },
       "microsoft-research": {
         "name": "microsoft-research",
@@ -58,7 +58,7 @@
         "name": "amazon-science-publication",
         "url": "https://www.amazon.science/publications/",
         "category": "Science",
-        "x-path": "/html/body/div[1]/main/ps-search-results-module/form/div/ps-search-filters/div/main/ul/li[1]"
+        "x-path": "/html/body/div[1]/main/ps-search-results-module/form/div/ps-search-filters/div/main/ul/li[1]/div"
       },
       "microsoft-research-filter": {
         "name": "microsoft-research-filter",
@@ -148,7 +148,7 @@
         "name": "spacex",
         "url": "https://www.spacex.com/",
         "category": "Space",
-        "x-path": "/html/body/div[1]/div[2]/div[1]/div[1]/div"
+        "x-path": "/html/body/div[1]/div[2]/div[1]/div[1]/div/div[1]"
       }
   }
 }
