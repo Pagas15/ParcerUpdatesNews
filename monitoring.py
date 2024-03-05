@@ -41,4 +41,3 @@ if __name__ == "__main__":
                     bot.send_photo(chat_id=chat_id, photo=InputFile(screenshot_path))
 
         webdriver.quit()
-        sleep(30)
