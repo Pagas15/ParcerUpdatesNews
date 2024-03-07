@@ -29,7 +29,7 @@ if __name__ == "__main__":
             site_snapshot = SiteSnapshot(screenshot_path=screenshot_path,
                                          snapshot_path=snapshot_path)
             site_observer = SiteObserver(chrom_webdriver=webdriver, site_snapshot=site_snapshot)
-            if site_observer.monitor(site['url'], By.XPATH, site['x-path']):
+            if site_observer.monitor(site['url'], By.XPATH, site['x-path'], site['sleep-time']):
                 for chat_id in get_newsletter_chats_ids():
                     bot.send_message(chat_id=chat_id, text=MessageText.SITE_CHANGED.format(
                         url=site['url'],
