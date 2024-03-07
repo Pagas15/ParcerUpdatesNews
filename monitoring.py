@@ -1,9 +1,7 @@
 import datetime
 import json
 import os.path
-import sys
 
-from time import sleep
 from telebot import TeleBot
 from telebot.types import InputFile
 from selenium.webdriver.common.by import By

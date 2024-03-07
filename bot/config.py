@@ -4,7 +4,7 @@ from typing import Set
 
 from dotenv import load_dotenv
 from fake_useragent import UserAgent
-from selenium.webdriver.chrome.options import Options
+from seleniumwire.webdriver import ChromeOptions
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
@@ -71,8 +71,8 @@ seleniumwire_options = {
 }
 
 
-def get_webdriver_options() -> Options:
-    chrome_options = Options()
+def get_webdriver_options() -> ChromeOptions:
+    chrome_options = ChromeOptions()
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--disable-dev-shm-usage')
