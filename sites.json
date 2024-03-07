@@ -151,7 +151,7 @@
         "name": "open-ai-research",
         "url": "https://openai.com/research",
         "category": "AI",
-        "sleep-time": 0,
+        "sleep-time": 5,
         "x-path": "/html/body/div/div[2]/div/div[1]/div/div[3]/form/div[3]"
       },
       "open-ai-blog": {
