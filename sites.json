@@ -175,7 +175,7 @@
       "url": "https://warpcast.com/vitalik.eth/casts-and-replies",
       "category": "ETH",
       "sleep-time": 0,
-      "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[1]/div/div/div[3]/div/div/div[3]"
+      "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[1]/div/div/div[3]/div/div/div[2]"
     },
     "warpcast": {
       "name": "warpcast",
