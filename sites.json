@@ -119,12 +119,19 @@
       "sleep-time": 0,
       "x-path": "/html/body/div[4]/div/main/div/div/div/div/div[3]/div"
     },
-    "blog-google": {
-      "name": "blog-google",
+    "blog-google-ai": {
+      "name": "blog-google-ai",
       "url": "https://blog.google/technology/ai",
-      "category": "Google blog",
+      "category": "Google blog, AI",
       "sleep-time": 0,
       "x-path": "/html/body/main/article/section[2]/uni-article-feed/div/div"
+    },
+    "blog-google": {
+      "name": "blog-google",
+      "url": "https://blog.research.google/",
+      "category": "Google blog",
+      "sleep-time": 0,
+      "x-path": "/html/body/div[1]/div[2]/div[2]/div/div/main/div/div[2]/div[1]/a[1]"
     },
     "spacex-updates": {
       "name": "spacex-updates",

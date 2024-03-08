@@ -1,12 +1,10 @@
-import os.path
 from abc import ABC, abstractmethod
 
 
 class Snapshot(ABC):
     TEXT_ENCODING = 'UTF-8'
 
-    def __init__(self, screenshot_path: str, snapshot_path: str):
-        self.screenshot_path = screenshot_path
+    def __init__(self, snapshot_path: str):
         self.snapshot_path = snapshot_path
 
     @abstractmethod
@@ -21,9 +19,8 @@ class Snapshot(ABC):
 
 
 class SiteSnapshot(Snapshot):
-
-    def __init__(self, screenshot_path: str, snapshot_path: str):
-        super().__init__(screenshot_path, snapshot_path)
+    def __init__(self, snapshot_path: str):
+        super().__init__(snapshot_path)
 
     def get_snapshot(self) -> str:
         return super().get_snapshot()

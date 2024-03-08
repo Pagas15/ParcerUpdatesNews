@@ -9,7 +9,6 @@ from selenium.common import TimeoutException
 from seleniumwire.webdriver import Chrome
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.action_chains import ActionChains
 
 from bot.misc.snapshots import SiteSnapshot
 
@@ -29,7 +28,6 @@ class SiteObserver(Observer):
     def __init__(self, chrom_webdriver: Chrome, site_snapshot: SiteSnapshot):
         self.chrome_driver = chrom_webdriver
         self.site_snapshot = site_snapshot
-        self.setup_window()
 
     def monitor(self, url: str, by: str, by_value: str, sleep_time: int) -> bool:
         validators.url(url)
@@ -47,10 +45,6 @@ class SiteObserver(Observer):
         try:
             if self.site_snapshot.get_snapshot() != element_content:
                 self.site_snapshot.make_snapshot(element_content)
-                ActionChains(self.chrome_driver).move_to_element(
-                    self.chrome_driver.find_element(by, by_value)).perform()
-                self.chrome_driver.execute_script("document.body.style.zoom='65%'")
-                element.screenshot(self.site_snapshot.screenshot_path)
                 return True
 
             return False

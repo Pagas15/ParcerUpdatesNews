@@ -1,3 +1,4 @@
+import json
 import os
 import random
 from typing import Set
@@ -23,10 +24,6 @@ BOT_TOKEN = os.getenv('BOT_TOKEN')
 SNAPSHOTS_DIR = 'snapshots'
 
 SNAPSHOTS_PATH = os.path.join(BOT_PATH, SNAPSHOTS_DIR)
-
-SCREENSHOTS_DIR = 'screenshots'
-
-SCREENSHOTS_PATH = os.path.join(SNAPSHOTS_PATH, SCREENSHOTS_DIR)
 
 SITE_SNAPSHOTS_DIR = 'sites'
 
@@ -71,6 +68,25 @@ seleniumwire_options = {
 }
 
 
+def get_monitoring_sites() -> dict:
+    with open(MONITORING_SITES_PATH) as json_file:
+        sites = json.load(json_file)
+        lists_sites = sites['lists_sites']
+        every_tick_sites = sites['every-tick']
+
+    monitoring_sites = []
+    for site in lists_sites.values():
+        monitoring_sites.append(site)
+        monitoring_sites.extend(every_tick_sites.values())
+
+    result = {
+        'lists_sites': lists_sites,
+        'every_tick_sites': every_tick_sites,
+        'monitoring_sites': monitoring_sites
+    }
+    return result
+
+
 def get_webdriver_options() -> ChromeOptions:
     chrome_options = ChromeOptions()
     chrome_options.add_argument('--headless')
@@ -80,8 +96,6 @@ def get_webdriver_options() -> ChromeOptions:
     chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
     chrome_options.add_experimental_option('useAutomationExtension', False)
     chrome_options.add_argument("--disable-blink-features=AutomationControlled")
-    chrome_options.add_argument("--window-size=1920,1080")
-    chrome_options.add_argument("--kiosk")
     return chrome_options
 
 
