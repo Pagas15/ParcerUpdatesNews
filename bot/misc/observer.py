@@ -23,7 +23,7 @@ class Observer(ABC):
 class SiteObserver(Observer):
     chrome_driver: Chrome = None
     site_snapshot: SiteSnapshot = None
-    loading_timeout = 180
+    loading_timeout = 15
 
     def __init__(self, chrom_webdriver: Chrome, site_snapshot: SiteSnapshot):
         self.chrome_driver = chrom_webdriver
