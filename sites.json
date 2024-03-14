@@ -112,12 +112,19 @@
       "sleep-time": 0,
       "x-path": "//*[@id=\"top-post\"]"
     },
-    "watcher-guru": {
-      "name": "watcher-guru",
-      "url": "https://watcher.guru/news/",
-      "category": "News",
+    "aboutamazon": {
+      "name": "About Amazon news",
+      "url": "https://www.aboutamazon.com/news",
+      "category": "Amazon Blog",
       "sleep-time": 0,
-      "x-path": "/html/body/div[4]/div/main/div/div/div/div/div[3]/div"
+      "x-path": "/html/body/div[1]/main/div/bsp-search-results-module/form/div/div/bsp-search-filters/div/main/div[2]/ul/li[1]"
+    },
+    "deepmind-google": {
+      "name": "deepmind-google",
+      "url": "https://deepmind.google/discover/blog/",
+      "category": "Google Deepmind blog",
+      "sleep-time": 0,
+      "x-path": "/html/body/main/div/div/div[2]/div[2]/div/ul/li[1]"
     },
     "blog-google-ai": {
       "name": "blog-google-ai",
@@ -167,9 +174,7 @@
       "category": "Space",
       "sleep-time": 5,
       "x-path": "/html/body/div[1]/div[2]/div[1]/div[1]/div/div[1]"
-    }
-  },
-  "every-tick": {
+    },
     "warpcast-casts-and-replies": {
       "name": "warpcast-casts-and-replies",
       "url": "https://warpcast.com/vitalik.eth/casts-and-replies",
@@ -184,5 +189,8 @@
       "sleep-time": 0,
       "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[1]/div/div/div[3]/div/div/div[2]"
     }
+  },
+  "every-tick": {
+
   }
 }
