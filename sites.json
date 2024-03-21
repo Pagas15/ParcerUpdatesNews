@@ -180,14 +180,14 @@
       "url": "https://warpcast.com/vitalik.eth/casts-and-replies",
       "category": "ETH",
       "sleep-time": 0,
-      "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[1]/div/div/div[3]/div/div/div[2]"
+      "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[40]/div/div/div[3]/div/div/div[2]/div"
     },
     "warpcast": {
       "name": "warpcast",
       "url": "https://warpcast.com/vitalik.eth",
       "category": "ETH",
       "sleep-time": 0,
-      "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[1]/div/div/div[3]/div/div/div[2]"
+      "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[40]/div/div/div[3]/div/div/div[2]/div"
     }
   },
   "every-tick": {
