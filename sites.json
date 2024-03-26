@@ -84,12 +84,19 @@
       "sleep-time": 0,
       "x-path": "/html/body/div/div[2]/div/div[1]/div/div[3]/div/div[2]/div/div/div[2]/div/ul"
     },
-    "marktechpost": {
-      "name": "marktechpost",
-      "url": "https://www.marktechpost.com/",
-      "category": "News",
+    "huggingface": {
+      "name": "huggingface",
+      "url": "https://huggingface.co/papers",
+      "category": "Daily Papers by AK",
       "sleep-time": 0,
-      "x-path": "/html/body/div[7]/div[2]/div/div[1]/div/div/div[1]/div"
+      "x-path": "/html/body/div/main/div[2]/section/div[2]/div[1]/article/div/div/div[2]/h3"
+    },
+    "bloomberg": {
+      "name": "bloomberg",
+      "url": "https://www.bloomberg.com/ai",
+      "category": "AI",
+      "sleep-time": 0,
+      "x-path": "/html/body/div[2]/div[2]/div[2]/div[2]/div[6]/section[2]/section[1]/section/div/article[1]"
     },
     "ai-meta": {
       "name": "ai-meta",
@@ -180,14 +187,14 @@
       "url": "https://warpcast.com/vitalik.eth/casts-and-replies",
       "category": "ETH",
       "sleep-time": 0,
-      "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[40]/div/div/div[3]/div/div/div[2]/div"
+      "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[1]/div/div/div[3]/div/div/div[3]/div"
     },
     "warpcast": {
       "name": "warpcast",
       "url": "https://warpcast.com/vitalik.eth",
       "category": "ETH",
       "sleep-time": 0,
-      "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[40]/div/div/div[3]/div/div/div[2]/div"
+      "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[1]/div/div/div[3]/div/div/div[2]/div"
     }
   },
   "every-tick": {
