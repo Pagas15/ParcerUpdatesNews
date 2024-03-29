@@ -5,196 +5,224 @@
       "url": "https://www.nvidia.com/en-us/",
       "category": "Video cards, Computers",
       "sleep-time": 0,
-      "x-path": "//*[@id=\"ai-data-science-blade\"]/div/div"
+      "x-path": "//*[@id=\"ai-data-science-blade\"]/div/div",
+      "chats":null
     },
     "x-ai": {
       "name": "x-ai",
       "url": "https://x.ai/",
       "category": "Company working on building artificial intelligence to accelerate human scientific discovery.",
       "sleep-time": 0,
-      "x-path": "/html/body/header/div[2]/div"
+      "x-path": "/html/body/header/div[2]/div",
+      "chats": null
     },
     "neuralink-blog": {
       "name": "neuralink-blog",
       "url": "https://neuralink.com/blog/",
       "category": "Technologies",
       "sleep-time": 0,
-      "x-path": "/html/body/div/main/div/div/div[1]"
+      "x-path": "/html/body/div/main/div/div/div[1]",
+      "chats": null
     },
     "news-samsung": {
       "name": "news-samsung",
       "url": "https://news.samsung.com/global/feed",
       "category": "Phones",
       "sleep-time": 0,
-      "x-path": "/html/body/div/div[2]/div/div[1]"
+      "x-path": "/html/body/div/div[2]/div/div[1]",
+      "chats": null
     },
     "vitalik.eth.limo": {
       "name": "vitalik-eth-limo",
       "url": "https://vitalik.eth.limo",
       "category": "ETH",
       "sleep-time": 0,
-      "x-path": "/html/body/div/ul/li[1]"
+      "x-path": "/html/body/div/ul/li[1]",
+      "chats": [-1002038422849]
     },
     "boringcompany-projects": {
       "name": "boringcompany-projects",
       "url": "https://www.boringcompany.com/projects",
       "category": "Tunnel construction services",
       "sleep-time": 0,
-      "x-path": "/html/body/div[4]/div[2]/div/main/section[1]/div[2]"
+      "x-path": "/html/body/div[4]/div[2]/div/main/section[1]/div[2]",
+      "chats": null
     },
     "nvidia-blogs": {
       "name": "nvidia-blogs",
       "url": "https://blogs.nvidia.com/",
       "category": "Video cards, Computers",
       "sleep-time": 0,
-      "x-path": "/html/body/div[1]/div[2]/div/div/main/div[1]/div[1]"
+      "x-path": "/html/body/div[1]/div[2]/div/div/main/div[1]/div[1]",
+      "chats": null
     },
     "amd-newsroom": {
       "name": "amd-newsroom",
       "url": "https://www.amd.com/en/newsroom.html",
       "category": "Video cards, Computers",
       "sleep-time": 0,
-      "x-path": "/html/body/div[1]/div/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div/div[3]/div/div/div[1]"
+      "x-path": "/html/body/div[1]/div/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div/div[3]/div/div/div[1]",
+      "chats": null
     },
     "microsoft-research": {
       "name": "microsoft-research",
       "url": "https://www.microsoft.com/en-us/research/",
       "category": "Advancing science and technology to benefit humanity",
       "sleep-time": 0,
-      "x-path": "/html/body/main/article/div/div/div/div[1]/div/div/div[2]/div"
+      "x-path": "/html/body/main/article/div/div/div/div[1]/div/div/div[2]/div",
+      "chats": null
     },
     "amazon-science-publication": {
       "name": "amazon-science-publication",
       "url": "https://www.amazon.science/publications/",
       "category": "Science",
       "sleep-time": 0,
-      "x-path": "/html/body/div[1]/main/ps-search-results-module/form/div/ps-search-filters/div/main/ul/li[1]/div"
+      "x-path": "/html/body/div[1]/main/ps-search-results-module/form/div/ps-search-filters/div/main/ul/li[1]/div",
+      "chats": null
     },
     "microsoft-research-filter": {
       "name": "microsoft-research-filter",
       "url": "https://www.microsoft.com/en-us/research/search/?facet%5Btax%5D%5Bmsr-content-type%5D[]=msr-project&pg=1&q=",
       "category": "Microsoft projects",
       "sleep-time": 0,
-      "x-path": "/html/body/main/div/div/div[2]/div[2]/div[1]/div/div[1]"
+      "x-path": "/html/body/main/div/div/div[2]/div[2]/div[1]/div/div[1]",
+      "chats": null
     },
     "open-ai": {
       "name": "open-ai",
       "url": "https://openai.com",
       "category": "AI",
       "sleep-time": 0,
-      "x-path": "/html/body/div/div[2]/div/div[1]/div/div[3]/div/div[2]/div/div/div[2]/div/ul"
+      "x-path": "/html/body/div/div[2]/div/div[1]/div/div[3]/div/div[2]/div/div/div[2]/div/ul",
+      "chats": [-1002038422849]
     },
     "huggingface": {
       "name": "huggingface",
       "url": "https://huggingface.co/papers",
       "category": "Daily Papers by AK",
       "sleep-time": 0,
-      "x-path": "/html/body/div/main/div[2]/section/div[2]/div[1]/article/div/div/div[2]/h3"
+      "x-path": "/html/body/div/main/div[2]/section/div[2]/div[1]/article/div/div/div[2]/h3",
+      "chats": null
     },
     "bloomberg": {
       "name": "bloomberg",
       "url": "https://www.bloomberg.com/ai",
       "category": "AI",
       "sleep-time": 0,
-      "x-path": "/html/body/div[2]/div[2]/div[2]/div[2]/div[6]/section[2]/section[1]/section/div/article[1]/div[2]"
+      "x-path": "/html/body/div[2]/div[2]/div[2]/div[2]/div[6]/section[2]/section[1]/section/div/article[1]/div[2]",
+      "chats": null
     },
     "ai-meta": {
       "name": "ai-meta",
       "url": "https://ai.meta.com/",
       "category": "AI",
       "sleep-time": 0,
-      "x-path": "/html/body/div/div/div[2]/div[1]/div[7]/div[2]/div[3]/div/div[1]/div/span/div"
+      "x-path": "/html/body/div/div/div[2]/div[1]/div[7]/div[2]/div[3]/div/div[1]/div/span/div",
+      "chats": null
     },
     "ai-meta-blog": {
       "name": "ai-meta-blog",
       "url": "https://ai.meta.com/blog/",
       "category": "AI",
       "sleep-time": 0,
-      "x-path": "/html/body/div/div/div[2]/div/div[5]/div[2]/div[1]"
+      "x-path": "/html/body/div/div/div[2]/div/div[5]/div[2]/div[1]",
+      "chats": null
     },
     "machinelearning": {
       "name": "machinelearning",
       "url": "https://machinelearning.apple.com/research",
       "category": "AI Apple",
       "sleep-time": 0,
-      "x-path": "//*[@id=\"top-post\"]"
+      "x-path": "//*[@id=\"top-post\"]",
+      "chats": null
     },
     "aboutamazon": {
       "name": "About Amazon news",
       "url": "https://www.aboutamazon.com/news",
       "category": "Amazon Blog",
       "sleep-time": 0,
-      "x-path": "/html/body/div[1]/main/div/bsp-search-results-module/form/div/div/bsp-search-filters/div/main/div[2]/ul/li[1]"
+      "x-path": "/html/body/div[1]/main/div/bsp-search-results-module/form/div/div/bsp-search-filters/div/main/div[2]/ul/li[1]",
+      "chats": null
     },
     "deepmind-google": {
       "name": "deepmind-google",
       "url": "https://deepmind.google/discover/blog/",
       "category": "Google Deepmind blog",
       "sleep-time": 0,
-      "x-path": "/html/body/main/div/div/div[2]/div[2]/div/ul/li[1]"
+      "x-path": "/html/body/main/div/div/div[2]/div[2]/div/ul/li[1]",
+      "chats": null
     },
     "blog-google-ai": {
       "name": "blog-google-ai",
       "url": "https://blog.google/technology/ai",
       "category": "Google blog, AI",
       "sleep-time": 0,
-      "x-path": "/html/body/main/article/section[2]/uni-article-feed/div/div"
+      "x-path": "/html/body/main/article/section[2]/uni-article-feed/div/div",
+      "chats": null
     },
     "blog-google": {
       "name": "blog-google",
       "url": "https://blog.research.google/",
       "category": "Google blog",
       "sleep-time": 0,
-      "x-path": "/html/body/div[1]/div[2]/div[2]/div/div/main/div/div[2]/div[1]/a[1]"
+      "x-path": "/html/body/div[1]/div[2]/div[2]/div/div/main/div/div[2]/div[1]/a[1]",
+      "chats": null
     },
     "spacex-updates": {
       "name": "spacex-updates",
       "url": "https://www.spacex.com/updates/",
       "category": "Space",
       "sleep-time": 5,
-      "x-path": "/html/body/div[1]/div[2]/div[2]/div/div[1]"
+      "x-path": "/html/body/div[1]/div[2]/div[2]/div/div[1]",
+      "chats": null
     },
     "open-ai-research": {
       "name": "open-ai-research",
       "url": "https://openai.com/research",
       "category": "AI",
       "sleep-time": 10,
-      "x-path": "/html/body/div/div[2]/div/div[1]/div/div[3]/form/div[3]"
+      "x-path": "/html/body/div/div[2]/div/div[1]/div/div[3]/form/div[3]",
+      "chats": [-1002038422849]
     },
     "open-ai-blog": {
       "name": "open-ai-blog",
       "url": "https://openai.com/blog",
       "category": "AI",
       "sleep-time": 0,
-      "x-path": "/html/body/div/div[2]/div/div[1]/div/div[4]/div/form/div[2]/div/div/ul/li[1]"
+      "x-path": "/html/body/div/div[2]/div/div[1]/div/div[4]/div/form/div[2]/div/div/ul/li[1]",
+      "chats": null
     },
     "nowadais": {
       "name": "nowadais",
       "url": "https://www.nowadais.com/",
       "category": "AI",
       "sleep-time": 0,
-      "x-path": "/html/body/div[1]/div[4]/div/div[1]/div[3]/div[1]/div[1]/article[1]/div[1]"
+      "x-path": "/html/body/div[1]/div[4]/div/div[1]/div[3]/div[1]/div[1]/article[1]/div[1]",
+      "chats": null
     },
     "spacex": {
       "name": "spacex",
       "url": "https://www.spacex.com/",
       "category": "Space",
       "sleep-time": 5,
-      "x-path": "/html/body/div[1]/div[2]/div[1]/div[1]/div/div[1]"
+      "x-path": "/html/body/div[1]/div[2]/div[1]/div[1]/div/div[1]",
+      "chats": null
     },
     "warpcast-casts-and-replies": {
       "name": "warpcast-casts-and-replies",
       "url": "https://warpcast.com/vitalik.eth/casts-and-replies",
       "category": "ETH",
       "sleep-time": 0,
-      "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[1]/div/div/div[3]/div/div/div[3]/div"
+      "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[1]/div/div/div[3]/div/div/div[3]/div",
+      "chats": [-1002038422849]
     },
     "warpcast": {
       "name": "warpcast",
       "url": "https://warpcast.com/vitalik.eth",
       "category": "ETH",
       "sleep-time": 0,
-      "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[1]/div/div/div[3]/div/div/div[2]/div"
+      "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[1]/div/div/div[3]/div/div/div[2]/div",
+      "chats": [-1002038422849]
     }
   },
   "every-tick": {

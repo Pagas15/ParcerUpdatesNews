@@ -22,7 +22,12 @@ if __name__ == "__main__":
             site_snapshot = SiteSnapshot(snapshot_path=snapshot_path)
             site_observer = SiteObserver(chrom_webdriver=webdriver, site_snapshot=site_snapshot)
             if site_observer.monitor(site['url'], By.XPATH, site['x-path'], site['sleep-time']):
-                for chat_id in get_newsletter_chats_ids():
+                if site['chats'] is None:
+                    chats = get_newsletter_chats_ids()
+                else:
+                    chats = site['chats']
+
+                for chat_id in chats:
                     changes_text = '\n\n'.join(site_snapshot.get_snapshot().split('\n'))
                     bot.send_message(chat_id=chat_id, text=MessageText.SITE_CHANGED.format(
                         url=site['url'],
