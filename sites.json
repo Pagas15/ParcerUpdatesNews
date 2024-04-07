@@ -72,14 +72,6 @@
       "x-path": "/html/body/main/article/div/div/div/div[1]/div/div/div[2]/div",
       "chats": null
     },
-    "amazon-science-publication": {
-      "name": "amazon-science-publication",
-      "url": "https://www.amazon.science/publications/",
-      "category": "Science",
-      "sleep-time": 0,
-      "x-path": "/html/body/div[1]/main/ps-search-results-module/form/div/ps-search-filters/div/main/ul/li[1]/div",
-      "chats": null
-    },
     "microsoft-research-filter": {
       "name": "microsoft-research-filter",
       "url": "https://www.microsoft.com/en-us/research/search/?facet%5Btax%5D%5Bmsr-content-type%5D[]=msr-project&pg=1&q=",
