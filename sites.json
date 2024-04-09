@@ -182,7 +182,7 @@
       "category": "AI",
       "sleep-time": 0,
       "x-path": "/html/body/div/div[2]/div/div[1]/div/div[4]/div/form/div[2]/div/div/ul/li[1]",
-      "chats": null
+      "chats": [-1002038422849]
     },
     "nowadais": {
       "name": "nowadais",
@@ -205,7 +205,7 @@
       "url": "https://warpcast.com/vitalik.eth/casts-and-replies",
       "category": "ETH",
       "sleep-time": 0,
-      "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[1]/div/div/div[3]/div/div/div[3]/div",
+      "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[1]/div/div/div[3]/div/div/div[2]/div[1]",
       "chats": [-1002038422849]
     },
     "warpcast": {
@@ -213,7 +213,7 @@
       "url": "https://warpcast.com/vitalik.eth",
       "category": "ETH",
       "sleep-time": 0,
-      "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[1]/div/div/div[3]/div/div/div[2]/div",
+      "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[1]/div/div/div[3]/div/div/div[2]/div[1]",
       "chats": [-1002038422849]
     }
   },
