@@ -204,7 +204,7 @@
       "name": "warpcast-casts-and-replies",
       "url": "https://warpcast.com/vitalik.eth/casts-and-replies",
       "category": "ETH",
-      "sleep-time": 0,
+      "sleep-time": 6,
       "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[1]/div/div/div[3]/div/div/div[2]/div[1]",
       "chats": [-1002038422849]
     },
@@ -212,7 +212,7 @@
       "name": "warpcast",
       "url": "https://warpcast.com/vitalik.eth",
       "category": "ETH",
-      "sleep-time": 0,
+      "sleep-time": 6,
       "x-path": "/html/body/div[1]/div/div/div/main/div/div/div[3]/div[1]/div/div/div[3]/div/div/div[2]/div[1]",
       "chats": [-1002038422849]
     }
