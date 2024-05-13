@@ -5,7 +5,7 @@
       "url": "https://openai.com",
       "category": "AI",
       "sleep-time": 0,
-      "x-path": "/html/body/div/div[2]/div/div[1]/div/div[3]/div/div[2]/div/div/div[2]/div/ul",
+      "x-path": "/html/body",
       "chats": [-1002038422849]
     },
     "open-ai-research": {
@@ -13,7 +13,7 @@
       "url": "https://openai.com/research",
       "category": "AI",
       "sleep-time": 10,
-      "x-path": "/html/body/div/div[2]/div/div[1]/div/div[3]/form/div[3]",
+      "x-path": "/html/body",
       "chats": [-1002038422849]
     },
     "open-ai-blog": {
@@ -21,7 +21,7 @@
       "url": "https://openai.com/blog",
       "category": "AI",
       "sleep-time": 0,
-      "x-path": "/html/body/div/div[2]/div/div[1]/div/div[4]/div/form/div[2]/div/div/ul/li[1]",
+      "x-path": "/html/body",
       "chats": [-1002038422849]
     }
   },
