@@ -1,11 +1,10 @@
 import json
 import os
-import random
 from typing import Set
 
 from dotenv import load_dotenv
 from fake_useragent import UserAgent
-from seleniumwire.undetected_chromedriver.v2 import ChromeOptions
+from undetected_chromedriver import ChromeOptions
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
@@ -45,29 +44,6 @@ def get_newsletter_chats_ids() -> Set[int]:
     return set(newsletter_chats_ids)
 
 
-PROXIES = [
-    f'{PROXY_AUTH_NAME}:{PROXY_AUTH_PASSWORD}@168.158.230.223:59100',
-    f'{PROXY_AUTH_NAME}:{PROXY_AUTH_PASSWORD}@45.85.206.106:59100',
-    f'{PROXY_AUTH_NAME}:{PROXY_AUTH_PASSWORD}@161.77.168.254:59100',
-    f'{PROXY_AUTH_NAME}:{PROXY_AUTH_PASSWORD}@168.158.231.67:59100',
-    f'{PROXY_AUTH_NAME}:{PROXY_AUTH_PASSWORD}@168.158.230.222:59100'
-]
-
-HTTP_PROXIES = [
-    f'http://{PROXIES[0]}',
-    f'http://{PROXIES[1]}',
-    f'http://{PROXIES[2]}',
-    f'http://{PROXIES[3]}',
-    f'http://{PROXIES[4]}',
-]
-
-seleniumwire_options = {
-    'proxy': {
-        'https': HTTP_PROXIES[random.randint(0, len(HTTP_PROXIES) - 1)],
-    }
-}
-
-
 def get_monitoring_sites() -> dict:
     with open(MONITORING_SITES_PATH) as json_file:
         sites = json.load(json_file)
@@ -91,7 +67,6 @@ def get_webdriver_options() -> ChromeOptions:
     chrome_options = ChromeOptions()
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--no-sandbox')
-    chrome_options.add_argument('--ignore-certificate-errors')
     chrome_options.add_argument("--window-size=1920x1080")
     chrome_options.add_argument('--disable-dev-shm-usage')
     chrome_options.add_argument(f"--user-agent={UserAgent().random}")
