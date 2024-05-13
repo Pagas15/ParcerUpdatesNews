@@ -6,7 +6,7 @@ import validators
 from abc import ABC, abstractmethod
 
 from selenium.common import TimeoutException
-from seleniumwire.webdriver import Chrome
+from undetected_chromedriver import Chrome
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
