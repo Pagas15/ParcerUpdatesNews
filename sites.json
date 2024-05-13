@@ -4,24 +4,24 @@
       "name": "open-ai",
       "url": "https://openai.com",
       "category": "AI",
-      "sleep-time": 0,
-      "x-path": "/html/body",
+      "sleep-time": 5,
+      "x-path": "//*[@id=\"main\"]/div[2]/div[7]/div[2]/div/div/div[2]/a[2]/div[1]",
       "chats": [-1002038422849]
     },
     "open-ai-research": {
       "name": "open-ai-research",
       "url": "https://openai.com/research",
       "category": "AI",
-      "sleep-time": 10,
-      "x-path": "/html/body",
+      "sleep-time": 5,
+      "x-path": "//*[@id=\"main\"]/div[2]/div[8]/div[2]",
       "chats": [-1002038422849]
     },
     "open-ai-blog": {
       "name": "open-ai-blog",
-      "url": "https://openai.com/blog",
+      "url": "https://openai.com/news",
       "category": "AI",
-      "sleep-time": 0,
-      "x-path": "/html/body",
+      "sleep-time": 5,
+      "x-path": "//*[@id=\"results\"]",
       "chats": [-1002038422849]
     }
   },

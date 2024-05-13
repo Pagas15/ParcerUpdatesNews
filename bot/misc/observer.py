@@ -33,6 +33,7 @@ class SiteObserver(Observer):
         validators.url(url)
         try:
             self.chrome_driver.get(url)
+            self.chrome_driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
             time.sleep(sleep_time)
             element = WebDriverWait(self.chrome_driver, self.loading_timeout).until(
                 EC.presence_of_element_located((by, by_value)))
